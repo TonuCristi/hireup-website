@@ -1,0 +1,322 @@
+/* XX-Large devices (1400px) */
+@media (max-width: 87.5em) {
+  .section-explore__header {
+    grid-template-columns: 55fr 45fr;
+  }
+
+  .section-companies__header {
+    grid-template-columns: 55fr 45fr;
+  }
+}
+
+/* X-Large devices (1200px) */
+@media (max-width: 75em) {
+  .section-choose {
+    place-items: center;
+  }
+}
+
+/* Large devices (992px) */
+@media (max-width: 62em) {
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    z-index: -1;
+    padding: 1rem;
+  }
+
+  .hidden {
+    transform: translateY(-150%);
+  }
+
+  .navBtnActive {
+    background-color: #443fde;
+  }
+
+  .header__log-btn_d-none {
+    display: block;
+    margin-left: 1.6rem;
+  }
+
+  .header__cta {
+    display: none;
+  }
+
+  .header__burger-btn-container {
+    display: block;
+  }
+
+  .section-hero__header {
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    margin-bottom: 8rem;
+    width: 70%;
+  }
+
+  .section-jobs__content {
+    max-width: 58rem;
+  }
+
+  .section-hero__search {
+    width: 80%;
+  }
+
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-jobs__content {
+    margin-bottom: 1.6rem;
+  }
+
+  .section-jobs__btn-box {
+    justify-self: start;
+  }
+
+  .section-testimonials__description-box {
+    width: 55%;
+  }
+
+  .section-testimonials__carousel-controls {
+    transform: translate(-100%, 0);
+    top: 0;
+    left: 100%;
+  }
+
+  .section-testimonials__img-box {
+    height: 45rem;
+  }
+
+  .section-testimonials__img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .section-blog__content-box {
+    flex-direction: column;
+  }
+
+  .section-blog__heading {
+    margin-bottom: 2rem;
+  }
+
+  .section-blog__carousel-controls {
+    align-self: flex-start;
+  }
+
+  .section-choose {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__nav {
+    gap: 4.4rem;
+  }
+
+  .footer__newsletter {
+    justify-self: flex-start;
+  }
+
+  .footer__form {
+    margin-bottom: 1.6rem;
+  }
+
+  .footer__copyr {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 62em) and (orientation: landscape) {
+  .nav {
+    gap: 0.6rem;
+  }
+
+  .nav__link:link,
+  .nav__link:visited {
+    padding: 0.6rem 1.6rem;
+  }
+}
+
+/*  Medium devices (768px) */
+@media (max-width: 48em) {
+  /* html {
+    font-size: 56.25%;
+  } */
+
+  .section-hero__heading {
+    font-size: 4rem;
+  }
+
+  .section-hero__search {
+    width: 100%;
+  }
+
+  .section-featured {
+    place-items: center;
+  }
+
+  .grid-6-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section-jobs__content {
+    margin-bottom: 4.4rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .section-companies__header {
+    grid-template-columns: 1fr;
+  }
+
+  .section-companies__content {
+    margin-bottom: 2.4rem;
+  }
+
+  .section-companies__carousel-controls {
+    justify-self: flex-start;
+  }
+
+  .section-companies__card {
+    flex: 1 0 100%;
+  }
+
+  .section-testimonials__description-box {
+    width: 70%;
+  }
+
+  .section-blog__card {
+    flex: 1 0 100%;
+  }
+
+  .section-blog__card-img {
+    height: 22rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .section-explore__form {
+    width: 100%;
+  }
+
+  .footer__nav {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Small devices (576px) */
+@media (max-width: 36rem) {
+  .section-hero__header {
+    width: 100%;
+  }
+
+  .section-jobs__content {
+    width: 100%;
+  }
+
+  .section-testimonials__description-box,
+  .section-testimonials__job-box {
+    width: 100%;
+  }
+}
+
+/* X-small devices (478px) */
+@media (max-width: 30rem) {
+  .section-hero {
+    padding: 14.4rem 2rem 6.4rem;
+  }
+
+  .section-hero__badge {
+    display: flex;
+    align-items: center;
+  }
+
+  .section-hero__partnership-text::before {
+    top: 4%;
+    left: -4%;
+  }
+
+  .section-hero__partnership-text::after {
+    top: 4%;
+    right: -4%;
+  }
+
+  .section-featured {
+    padding: 0 2em;
+  }
+
+  .section-jobs {
+    padding: 10rem 2rem;
+  }
+
+  .grid-6-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-jobs__btn-box {
+    width: 100%;
+  }
+
+  .section-jobs__btn-jobs {
+    width: 100%;
+  }
+
+  .section-companies {
+    padding: 13.8rem 2rem;
+  }
+
+  .section-choose {
+    padding: 10rem 2rem;
+  }
+
+  .section-choose__partnership-text::before {
+    top: 4%;
+    left: -4%;
+  }
+
+  .section-choose__partnership-text::after {
+    top: 4%;
+    right: -4%;
+  }
+
+  .section-testimonials__container {
+    padding: 10rem 2rem;
+  }
+
+  .section-blog {
+    padding: 7.2rem 2rem;
+  }
+
+  .section-explore {
+    padding: 10rem 2rem 12.8rem;
+  }
+
+  .footer-container {
+    padding: 7.2rem 2rem;
+  }
+
+  /* .footer__content {
+    grid-template-columns: 1fr;
+  } */
+
+  .footer__nav {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__newsletter {
+    width: 100%;
+  }
+}
